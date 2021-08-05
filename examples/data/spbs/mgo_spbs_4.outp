@@ -1,0 +1,413 @@
+date Thu 5 Aug 2021 16:03:46 BST
+master hostname MacBook-Pro.local
+system Darwin MacBook-Pro.local 20.6.0 Darwin Kernel Version 20.6.0: Wed Jun 23 00:26:27 PDT 2021; root:xnu-7195.141.2~5/RELEASE_ARM64_T8101 x86_64
+user brunocamino
+output data in /Users/brunocamino/Desktop/Imperial/crystal_python_tools/examples/workflows/../data/spbs/mgo_spbs_4.outp
+properties in /Users/brunocamino/crystal
+input data in /Users/brunocamino/Desktop/Imperial/crystal_python_tools/examples/workflows/../data/spbs/mgo_spbs_4.d3
+temporary directory /Users/brunocamino/crystal/tmp
+wave function data from /Users/brunocamino/Desktop/Imperial/crystal_python_tools/examples/workflows/../data/spbs/mgo.f9
+wave function formatted data from /Users/brunocamino/Desktop/Imperial/crystal_python_tools/examples/workflows/../data/spbs/mgo.f98
+NEWK
+0 0
+1 0
+BAND
+BN
+3 40 200 1 26 1 0
+0 0 -4 15 15 -4
+15 15 -4 20 0 6
+20 0 6 0 0 -4
+END
+         
+ *******************************************************************************
+ *                                                                             *
+ *                               CRYSTAL17                                     *
+ *                      public : 1.0.2 - March 1st, 2018                       *
+ *                       HTTP://WWW.CRYSTAL.UNITO.IT                           *
+ *                                                                             *
+ *                              MAIN AUTHORS                                   *
+ *                                                                             *
+ *  R. DOVESI(1,11), V.R. SAUNDERS(2), C. ROETTI(1,11), R. ORLANDO(1,11),      *
+ *  C.M. ZICOVICH-WILSON(1,3), F. PASCALE(4), B. CIVALLERI(1,11),              *
+ *  K. DOLL(5), N.M. HARRISON(2,6), I.J. BUSH(7), Ph. D'ARCO(8),               *
+ *  M. LLUNELL(9), M. CAUSA'(10), Y. NOEL(8), L. MASCHIO(1,11), A. ERBA(1,11)  *
+ *  M. RE'RAT(14), S. CASASSA(1,11)                                            *
+ *                                                                             *
+ *        CONTRIBUTIONS TO THE CODE HAVE ALSO BEEN GIVEN BY                    *
+ *                                                                             *
+ *  M. FERRABONE(1,11), M. DE LA PIERRE(1,11), M. FERRERO(1,11),               *
+ *  J. BAIMA(1,11), E. ALBANESE(1,11), M.F. PEINTINGER(12), R. BAST(13),       *
+ *  B. KIRTMAN(15), V. LACIVITA(1,11), R. DEMICHELIS(1,16)                     *
+ *  G. BRANDEBURG(17), S. SALUSTRO(1,11), G. SANSONE(1,11)                     *
+ *  M.T. RUGGIERO(18)                                                          *
+ *                                                                             *
+ * (1) THEORETICAL CHEMISTRY GROUP - UNIVERSITA' DI TORINO - TORINO (ITALY)    *
+ * (2) COMPUTATIONAL SCIENCE & ENGINEERING DEPARTMENT - STFC DARESBURY (UK)    *
+ * (3) UNIVERSIDAD AUTONOMA DEL ESTADO DE MORELOS - CUERNAVACA (MEXICO)        *
+ * (4) UNIVERSITE' DE LORRAINE - NANCY (FRANCE)                                *
+ * (5) UNIVERSITAET STUTTGART- STUTTGART (GERMANY)                             *
+ * (6) IMPERIAL COLLEGE - LONDON (UK)                                          *
+ * (7) OXFORD E-RESEARCH CENTRE - OXFORD (UK)                                  *
+ * (8) UPMC - SORBONNE UNIVERSITES - PARIS (FRANCE)                            *
+ * (9) UNIVERSIDAD DE BARCELONA - BARCELONA (SPAIN)                            *
+ *(10) UNIVERSITA' DI NAPOLI "FEDERICO II" - NAPOLI (ITALY)                    *
+ *(11) NIS - NANOSTRUCTURED INTERFACES AND SURFACES - TORINO (ITALY)           *
+ *(12) MPI FUER CHEMISCHE ENERGIEKONVERSION - MUELHEIM AN DER RUHR (GERMANY)   *
+ *(13) UNIVERSITY OF TROMSO - TROMSO (NORWAY)                                  *
+ *(14) UNIVERSITE' DE PAU ET DES PAYS DE L'ADOUR - PAU (FRANCE)                *
+ *(15) UNIVERSITY OF CALIFORNIA SANTA BARBARA - SANTA BARBARA (USA)            *
+ *(16) CURTIN UNIVERSITY - PERTH (AUSTRALIA)                                   *
+ *(17) UNIVERSITY COLLEGE LONDON - LONDON (UK)                                 *
+ *(18) CAMBRIDGE UNIVERSITY - CAMBRIDGE (UK)                                   *
+ *                                                                             *
+ *******************************************************************************
+ EEEEEEEEEE STARTING  DATE 05 08 2021 TIME 16:03:46.9
+
+ *******************************************************************************
+ MGO BULK - GEOMETRY TEST                                                        
+ CRYSTAL - PROPERTIES - TYPE OF CALCULATION :  RESTRICTED CLOSED SHELL
+ *******************************************************************************
+ KOHN-SHAM HAMILTONIAN
+
+ (EXCHANGE)[CORRELATION] FUNCTIONAL:(BECKE 88)[LEE-YANG-PARR]
+
+ NON-LOCAL WEIGHTING FACTOR (EXCHANGE) =           0.9000
+ NON-LOCAL WEIGHTING FACTOR [CORRELATION] =        0.8100
+
+ HYBRID EXCHANGE - PERCENTAGE OF FOCK EXCHANGE    20.0000
+
+ DIRECT LATTICE VECTOR COMPONENTS (ANGSTROM)
+         2.98187    0.00000    0.00000
+         0.00000    2.98187    0.00000
+         1.49093   -1.49093    2.10850
+
+ LATTICE PARAMETERS  (ANGSTROM AND DEGREES) - PRIMITIVE CELL
+       A          B          C         ALPHA      BETA     GAMMA        VOLUME
+    2.98187    2.98187    2.98187    120.0000   60.0000   90.0000      18.74782
+ *******************************************************************************
+ N. OF ATOMS PER CELL         2 COULOMB OVERLAP TOL          (T1) 10**   -7
+ NUMBER OF SHELLS             8 COULOMB PENETRATION TOL      (T2) 10**   -7
+ NUMBER OF AO                26 EXCHANGE OVERLAP TOL         (T3) 10**   -7
+ N. OF ELECTRONS PER CELL    20 EXCHANGE PSEUDO OVP (F(G))   (T4) 10**   -7
+ CORE ELECTRONS PER CELL     12 EXCHANGE PSEUDO OVP (P(G))   (T5) 10**  -14
+ N. OF SYMMETRY OPERATORS    48 POLE ORDER IN MONO ZONE                   4
+ *******************************************************************************
+   ATOM N.AT.  SHELL    X(A)      Y(A)      Z(A)      EXAD       N.ELECT.
+ *******************************************************************************
+    1   12 MG    4     0.000     0.000     0.000   2.800E-01      10.124
+    2    8 O     4     1.491     1.491     0.000   1.802E-01       9.876
+ *******************************************************************************
+ DE(K)                   0.000E+00  ENERGY LEVEL SHIFTING        0.00000
+ TOTAL ENERGY -2.7544859278612E+02  CONVERGENCE ON ENER       -3.283E-09
+ KIN. ENERGY   2.7433992817806E+02  VIR. COEFF.           1.03637594E+00
+ N. OF SCF CYCLES                7  FERMI ENERGY              -0.152E+00
+ WEIGHT OF F(I) IN F(I+1)      70
+ SHRINK. FACT.(MONKH.)     6  6  6  SHRINKING FACTOR(GILAT NET)       12
+ NUMBER OF K POINTS IN THE IBZ  16  CELL VOLUME (A.U.)        126.516573
+ *******************************************************************************
+
+ GCALCO - MAX INDICES DIRECT LATTICE VECTOR    14    14    16
+ NO.OF VECTORS CREATED 6999 STARS  105 RMAX    59.63435 BOHR
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT gordsh1     TELAPSE        0.01 TCPU        0.01
+
+ MATRIX SIZE: P(G)   41706, F(G)    8178, P(G) IRR    1816, F(G) IRR     974
+ MAX G-VECTOR INDEX FOR 1- AND 2-ELECTRON INTEGRALS 289
+
+
+ CAPPA:IS1  6;IS2  6;IS3  6; K PTS MONK NET  16; SYMMOPS:K SPACE  48;G SPACE  48
+
+
+ CAPPA:IS1  6;IS2  6;IS3  6; K PTS MONK NET  16; SYMMOPS:K SPACE  48;G SPACE  48
+
+ *******************************************************************************
+ RESTART WITH NEW K POINTS NET
+ *******************************************************************************
+ POINTS IN THE IBZ                  16 POINTS(GILAT NET)                72
+ SHRINK FACTORS(MONK.)         6  6  6 SHRINK FACTOR(GILAT)             12
+ *******************************************************************************
+ *** K POINTS COORDINATES (OBLIQUE COORDINATES IN UNITS OF IS =  6)
+   1-R(  0  0  0)   2-C(  1  0  0)   3-C(  2  0  0)   4-R(  3  0  0)
+   5-C(  1  1  0)   6-C(  2  1  0)   7-C(  3  1  0)   8-C(  4  1  0)
+   9-C(  5  1  0)  10-C(  2  2  0)  11-C(  3  2  0)  12-C(  4  2  0)
+  13-R(  3  3  0)  14-C(  3  1  1)  15-C(  4  1  1)  16-C(  4  2  1)
+
+ FERMI ENERGY AND DENSITY MATRIX CALCULATION ON COMPUTED EIGENVECTORS
+ DENSITY MATRIX AT SCF CYCLE (  7+1)
+
+ INSULATING STATE
+ TOP OF VALENCE BANDS -    BAND     10; K    1; EIG -1.5200863E-01 AU
+ BOTTOM OF VIRTUAL BANDS - BAND     11; K    1; EIG  1.0988313E-01 AU
+ DIRECT ENERGY BAND GAP:   7.1264 eV
+
+ CORE DENSITY MATRIX CALCULATION
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT NEWK        TELAPSE        0.02 TCPU        0.02
+ WARNING **** F90MAIN3 **** BF SYMMETRY ADAPTED-INFO MODIFIED BY BAND-CALL NEWK
+
+
+ *******************************************************************************
+ *                                                                             *
+ *  BAND STRUCTURE                                                             *
+ *  BN                                                                         *
+ *  FROM BAND   1 TO BAND  26                                                  *
+ *  TOTAL OF 200 K-POINTS ALONG THE PATH                                       *
+ *                                                                             *
+ *******************************************************************************
+
+ LINE  1 ( 0.00 0.00-0.10: 0.38 0.38-0.10) IN TERMS OF PRIMITIVE LATTICE VECTORS
+  75 POINTS - SHRINKING_FACTOR2960
+ CARTESIAN COORD. ( 0.000 0.000-0.158):( 0.418 0.418-0.158) STEP  0.0080
+
+
+ LINE  2 ( 0.38 0.38-0.10: 0.50 0.00 0.15) IN TERMS OF PRIMITIVE LATTICE VECTORS
+  55 POINTS - SHRINKING_FACTOR2200
+ CARTESIAN COORD. ( 0.418 0.418-0.158):( 0.558 0.000-0.158) STEP  0.0080
+
+
+ LINE  3 ( 0.50 0.00 0.15: 0.00 0.00-0.10) IN TERMS OF PRIMITIVE LATTICE VECTORS
+  70 POINTS - SHRINKING_FACTOR2800
+ CARTESIAN COORD. ( 0.558 0.000-0.158):( 0.000 0.000-0.158) STEP  0.0080
+
+
+ 1950 DATA WRITTEN ON UNIT 25 WITH THE FOLLOWING HEADER :
+ -%-0BAND      0    0   -4   15   15   -4
+
+ 1430 DATA WRITTEN ON UNIT 25 WITH THE FOLLOWING HEADER :
+ -%-0BAND     15   15   -4   20    0    6
+
+ 1820 DATA WRITTEN ON UNIT 25 WITH THE FOLLOWING HEADER :
+ -%-0BAND     20    0    6    0    0   -4
+
+ ENERGY RANGE (A.U.)  -46.65363 -   5.99801 EFERMI  -0.15201
+     |*-------------------------------------------------------------*----------------------------------*--*-******--***-*-*-|
+     |*                                                             *                                  *  * ******  *** * * |
+     |*                                                             *                                  *  * ******  *** * * |
+     |*                                                             *                                  *  * ******  *** * * |
+     |*                                                             *                                  *  * ******  *** * * |
+     |*                                                             *                                  *  * ******  *** * * |
+     |*                                                             *                                  *  * ******  *** * * |
+     |*                                                             *                                  *  * ******  *** * * |
+     |*                                                             *                                  *  * ******  *** * * |
+     |*                                                             *                                  *  * ******  *** * * |
+     |*                                                             *                                  *  * ******  *** * * |
+     |*                                                             *                                  *  * ******  *** * * |
+     |*                                                             *                                  *  * ******  *** * * |
+     |*                                                             *                                  *  * ******  *** * * |
+     |*                                                             *                                  *  * ******  *** * * |
+     |*                                                             *                                  *  * ******  *** * * |
+     |*                                                             *                                  *  * ******  *** * * |
+     |*                                                             *                                  *  * ******  *** * * |
+     |*                                                             *                                  *  * ******  *** * * |
+     |*                                                             *                                  *  * ******  *** * * |
+     |*                                                             *                                  *  * ******  *** * * |
+     |*                                                             *                                  *  * ******  *** * * |
+     |*                                                             *                                  *  * ******  *** * * |
+     |*                                                             *                                  *  * ******  *** * * |
+     |*                                                             *                                  *  * ******  *** * * |
+     |*                                                             *                                  *  * ******  *** * * |
+     |*                                                             *                                  *  * ******  *** * * |
+     |*                                                             *                                  *  * ******  *** * * |
+     |*                                                             *                                  *  * ******  *** * * |
+     |*                                                             *                                  *  * ****** **** * * |
+     |*                                                             *                                  *  * ****** **** * * |
+     |*                                                             *                                  *  * ****** **** * * |
+     |*                                                             *                                  *  * ****** **** * * |
+     |*                                                             *                                  *  * ****** **** * * |
+     |*                                                             *                                  *  * ****** **** * * |
+     |*                                                             *                                  *  * ****** **** * * |
+     |*                                                             *                                  *  * ****** **** * * |
+     |*                                                             *                                  *  * ****** **** * * |
+     |*                                                             *                                  *  * ****** **** * * |
+     |*                                                             *                                  *  * ****** **** * * |
+     |*                                                             *                                  *  * ****** ***  * * |
+     |*                                                             *                                  *  * ****** ***  * * |
+     |*                                                             *                                  *  * ****** ***  * * |
+     |*                                                             *                                  *  * ****** ***  * * |
+     |*                                                             *                                  *  * ****** ***  * * |
+     |*                                                             *                                  *  * ****** ***  * * |
+     |*                                                             *                                  *  * ****** ***  * * |
+     |*                                                             *                                  *  * ****** ***  * * |
+     |*                                                             *                                  *  * ****** ***  * * |
+     |*                                                             *                                  *  * ****** ***  * * |
+     |*                                                             *                                  *  * ****** ***  * * |
+     |*                                                             *                                  *  * ****** ***  * * |
+     |*                                                             *                                  *  * ****** ***  * * |
+     |*                                                             *                                  *  * ****** ***  * * |
+     |*                                                             *                                  *  * ****** ***  * * |
+     |*                                                             *                                  *  * ****** ***  * * |
+     |*                                                             *                                  *  * ****** ***  * * |
+     |*                                                             *                                  *  * ****** ***  * * |
+     |*                                                             *                                  *  * ****** ***  * * |
+     |*                                                             *                                  *  * ****** ***  * * |
+     |*                                                             *                                  *  * ****** ***  * * |
+     |*                                                             *                                  *  * ****** ***  * * |
+     |*                                                             *                                  *  * ****** ***  * * |
+     |*                                                             *                                  *  * ****** ***  * * |
+     |*                                                             *                                  *  * ****** ***  * * |
+     |*                                                             *                                  *  * ****** ***  * * |
+     |*                                                             *                                  *  * ****** ***  * * |
+     |*                                                             *                                  *  * ****** ***  * * |
+     |*                                                             *                                  *  * ****** ***  * * |
+     |*                                                             *                                  *  * ****** ***  * * |
+     |*                                                             *                                  *  * ****** ***  * * |
+     |*                                                             *                                  *  * ****** ***  * * |
+     |*                                                             *                                  *  * ****** ***  * * |
+     |*                                                             *                                  *  * ****** ***  * * |
+     |*-------------------------------------------------------------*----------------------------------*--*-******-***--*-*-|
+     |*                                                             *                                  *  * ****** ***  * * |
+     |*                                                             *                                  *  * ****** ***  * * |
+     |*                                                             *                                  *  * ****** ***  * * |
+     |*                                                             *                                  *  * ****** ***  * * |
+     |*                                                             *                                  *  * ****** ***  * * |
+     |*                                                             *                                  *  * ****** ***  * * |
+     |*                                                             *                                  *  * ****** ***  * * |
+     |*                                                             *                                  *  * ****** ***  * * |
+     |*                                                             *                                  *  * ****** ***  * * |
+     |*                                                             *                                  *  * ****** ***  * * |
+     |*                                                             *                                  *  * ****** ***  * * |
+     |*                                                             *                                  *  * ****** ***  * * |
+     |*                                                             *                                  *  * ****** ***  * * |
+     |*                                                             *                                  *  * ****** ***  * * |
+     |*                                                             *                                  *  * ****** ***  * * |
+     |*                                                             *                                  *  * ****** ***  * * |
+     |*                                                             *                                  *  * ****** ***  * * |
+     |*                                                             *                                  *  * ****** ***  * * |
+     |*                                                             *                                  *  * ****** ***  * * |
+     |*                                                             *                                  *  * ****** ***  * * |
+     |*                                                             *                                  *  * ****** ***  * * |
+     |*                                                             *                                  *  * ****** ***  * * |
+     |*                                                             *                                  *  * ****** ***  * * |
+     |*                                                             *                                  *  * ****** *** *  * |
+     |*                                                             *                                  *  * ****** *** *  * |
+     |*                                                             *                                  *  * ****** *** *  * |
+     |*                                                             *                                  *  * ****** *** *  * |
+     |*                                                             *                                  *  * ****** *** *   *|
+     |*                                                             *                                  *  * ****** *** *   *|
+     |*                                                             *                                  *  * ****** *** *   *|
+     |*                                                             *                                  *  * ****** *** *   *|
+     |*                                                             *                                  *  * ****** *** *   *|
+     |*                                                             *                                  *  * ****** *** *   *|
+     |*                                                             *                                  *  * ****** *** *   *|
+     |*                                                             *                                  *  * ****** *** *   *|
+     |*                                                             *                                  *  * ****** *** *   *|
+     |*                                                             *                                  *  * ****** *** *   *|
+     |*                                                             *                                  *  * ****** *** *   *|
+     |*                                                             *                                  *  * ****** *** *   *|
+     |*                                                             *                                  *  * ****** *** *   *|
+     |*                                                             *                                  *  * ****** *** *   *|
+     |*                                                             *                                  *  * ****** *** *   *|
+     |*                                                             *                                  *  * ****** *** *   *|
+     |*                                                             *                                  *  * ****** *** *   *|
+     |*                                                             *                                  *  * ****** *** *   *|
+     |*                                                             *                                  *  * ****** *** *   *|
+     |*                                                             *                                  *  * ****** *** *   *|
+     |*                                                             *                                  *  * ****** *** *   *|
+     |*                                                             *                                  *  * ****** *** *   *|
+     |*                                                             *                                  *  * ****** *** *   *|
+     |*                                                             *                                  *  * ****** *** *   *|
+     |*                                                             *                                  *  * ****** *** *   *|
+     |*                                                             *                                  *  * ****** *** *   *|
+     |*                                                             *                                  *  * ****** *** *   *|
+     |*-------------------------------------------------------------*----------------------------------*--*-******-***-*---*|
+     |*                                                             *                                  *  * ****** *** *   *|
+     |*                                                             *                                  *  * ****** *** *   *|
+     |*                                                             *                                  *  * ****** *** *   *|
+     |*                                                             *                                  *  * ****** *** *   *|
+     |*                                                             *                                  *  * ****** *** *   *|
+     |*                                                             *                                  *  * ****** *** *   *|
+     |*                                                             *                                  *  * ****** *** *   *|
+     |*                                                             *                                  *  * ****** *** *   *|
+     |*                                                             *                                  *  * ****** *** *   *|
+     |*                                                             *                                  *  * ****** *** *   *|
+     |*                                                             *                                  *  * ****** *** *   *|
+     |*                                                             *                                  *  * ****** *** *   *|
+     |*                                                             *                                  *  * ****** *** *   *|
+     |*                                                             *                                  *  * ****** *** *   *|
+     |*                                                             *                                  *  * ****** *** *   *|
+     |*                                                             *                                  *  * ****** *** *   *|
+     |*                                                             *                                  *  * ****** *** *   *|
+     |*                                                             *                                  *  * ****** *** *   *|
+     |*                                                             *                                  *  * ****** *** *   *|
+     |*                                                             *                                  *  * ****** *** *   *|
+     |*                                                             *                                  *  * ****** *** *   *|
+     |*                                                             *                                  *  * ****** *** *   *|
+     |*                                                             *                                  *  * ****** *** *   *|
+     |*                                                             *                                  *  * ****** ***  *  *|
+     |*                                                             *                                  *  * ****** ***  *  *|
+     |*                                                             *                                  *  * ****** ***  *  *|
+     |*                                                             *                                  *  * ****** ***  *  *|
+     |*                                                             *                                  *  * ****** ***  *  *|
+     |*                                                             *                                  *  * ****** ***  *  *|
+     |*                                                             *                                  *  * ****** ***  *  *|
+     |*                                                             *                                  *  * ****** ***  *  *|
+     |*                                                             *                                  *  * ****** ***  *  *|
+     |*                                                             *                                  *  * ****** ***  *  *|
+     |*                                                             *                                  *  * ****** ***  * * |
+     |*                                                             *                                  *  * ****** ***  * * |
+     |*                                                             *                                  *  * ****** ***  * * |
+     |*                                                             *                                  *  * ****** ***  * * |
+     |*                                                             *                                  *  * ****** ***  * * |
+     |*                                                             *                                  *  * ****** ***  * * |
+     |*                                                             *                                  *  * ****** ***  * * |
+     |*                                                             *                                  *  * ****** ***  * * |
+     |*                                                             *                                  *  * ******  **  * * |
+     |*                                                             *                                  *  * ******  **  * * |
+     |*                                                             *                                  *  * ******  **  * * |
+     |*                                                             *                                  *  * ******  **  * * |
+     |*                                                             *                                  *  * ******  **  * * |
+     |*                                                             *                                  *  * ******  **  * * |
+     |*                                                             *                                  *  * ******  *** * * |
+     |*                                                             *                                  *  * ******  *** * * |
+     |*                                                             *                                  *  * ******  *** * * |
+     |*                                                             *                                  *  * ******  *** * * |
+     |*                                                             *                                  *  * ******  *** * * |
+     |*                                                             *                                  *  * ******  *** * * |
+     |*                                                             *                                  *  * ******  *** * * |
+     |*                                                             *                                  *  * ******  *** * * |
+     |*                                                             *                                  *  * ******  *** * * |
+     |*                                                             *                                  *  * ******  *** * * |
+     |*                                                             *                                  *  * ******  *** * * |
+     |*                                                             *                                  *  * ******  *** * * |
+     |*                                                             *                                  *  * ******  *** * * |
+     |*                                                             *                                  *  * ******  *** * * |
+     |*                                                             *                                  *  * ******  *** * * |
+     |*                                                             *                                  *  * ******  *** * * |
+     |*                                                             *                                  *  * ******  *** * * |
+     |*                                                             *                                  *  * ******  *** * * |
+     |*                                                             *                                  *  * ******  *** * * |
+     |*                                                             *                                  *  * ******  *** * * |
+     |*                                                             *                                  *  * ******  *** * * |
+     |*                                                             *                                  *  * ******  *** * * |
+     |*-------------------------------------------------------------*----------------------------------*--*-******--***-*-*-|
+
+ CAPPA:IS1  6;IS2  6;IS3  6; K PTS MONK NET  16; SYMMOPS:K SPACE  48;G SPACE  48
+
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT BAND        TELAPSE        0.08 TCPU        0.08
+ ENDPROP   
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT END         TELAPSE        0.08 TCPU        0.08
+ EEEEEEEEEE TERMINATION  DATE 05 08 2021 TIME 16:03:47.0
+Thu  5 Aug 2021 16:03:47 BST
+Contents of temporary directory:
+total 5168
+-rw-r--r--  1 brunocamino  admin    71256  5 Aug 16:03 BAND.DAT
+-rw-r--r--  1 brunocamino  admin        0  5 Aug 16:03 OPTalist
+-rw-r--r--  1 brunocamino  admin        0  5 Aug 16:03 OPTclist
+-rw-r--r--  1 brunocamino  admin    54600  5 Aug 16:03 diis_Fg
+-rw-r--r--  1 brunocamino  admin     4896  5 Aug 16:03 diis_Fia1
+-rw-r--r--  1 brunocamino  admin     4080  5 Aug 16:03 diis_Fia2
+-rw-r--r--  1 brunocamino  admin        0  5 Aug 15:52 diis_Sk
+-rw-r--r--  1 brunocamino  admin    71120  5 Aug 16:03 fort.10
+-rw-r--r--  1 brunocamino  admin    65432  5 Aug 16:03 fort.11
+-rw-r--r--  1 brunocamino  admin  1000968  5 Aug 16:03 fort.13
+-rw-r--r--  1 brunocamino  admin   318005  5 Aug 16:03 fort.25
+-rw-r--r--  1 brunocamino  admin    65432  5 Aug 16:03 fort.3
+-rw-r--r--  1 brunocamino  admin    88624  5 Aug 16:03 fort.61
+-rw-r--r--  1 brunocamino  admin    47360  5 Aug 16:03 fort.62
+-rw-r--r--  1 brunocamino  admin   156960  5 Aug 16:03 fort.8
+-rw-r--r--  1 brunocamino  admin   127172  5 Aug 16:03 fort.9
+-rw-r--r--  1 brunocamino  admin   323770  5 Aug 16:03 fort.98
+-rw-r--r--  1 brunocamino  admin        0  5 Aug 16:03 scanlist
+file fort.98 saved as /Users/brunocamino/Desktop/Imperial/crystal_python_tools/examples/workflows/../data/spbs/mgo_spbs_4.f98
+file fort.13 saved as /Users/brunocamino/Desktop/Imperial/crystal_python_tools/examples/workflows/../data/spbs/mgo_spbs_4.f13
+file fort.25 saved as /Users/brunocamino/Desktop/Imperial/crystal_python_tools/examples/workflows/../data/spbs/mgo_spbs_4.f25
+file BAND.DAT saved as /Users/brunocamino/Desktop/Imperial/crystal_python_tools/examples/workflows/../data/spbs/mgo_spbs_4_dat.BAND
+output of Crgra in file /Users/brunocamino/Desktop/Imperial/crystal_python_tools/examples/workflows/../data/spbs/mgo_spbs_4.outpg
