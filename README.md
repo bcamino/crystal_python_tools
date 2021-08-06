@@ -68,6 +68,7 @@ I would recommend to use the repository as follows:
 If this is your first time using the crystal_python_tools or if you need a refresher, please have a look at the <b>examples</b> folder. In there you will find all the workflows and building_blocks run by using (mostly) MgO, a CRYSTAL all time favourite. These notebooks also include some extra explanations. Please do not copy these for production purposes since some of the parameters had to be modified to take into account the fact they are in the <b>examples</b> folder.
 
 <b>Running the calculations</b>
+
 Throughout the whole project the idea is that you will start by having an initial input (file_name.d12). You will be required to input this name and the directory name in the jupyter notebooks. In this step, it's important to remember the structure of the repository. For example, if your input is in the /data folder and your jupyter notebook is in /workflows, the directory = '../data'.
 The initial input is read by the notebooks and stored in different blocks (geom_block, scf_block, etc.). The ntebooks work on this objects and at the end they are written to a different input. This way, you can keep a basic input, for example mgo.d12, which is just the bulk, keep reading that input and perform different tasks.
 
@@ -82,6 +83,19 @@ In terms of performing the calculations, the notebooks offer three options:
   <li>
   <b>run = 'Analyse'</b>: the notebook will analyse the outputs present in the specified directory. This is the option to use if the calculations were performed on a different machine (for example a super computer) and you are analysing the results on your local machine. If you intend to use this option, we recommend to generate the inputs by using run = False in order to have a consistent naming structure that is then recognised by run = 'Analyse'.
   </li>
+  </ul>
 
   <b>Future development</b>
-  The first verion of this project was released on August 2021. 
+  The first verion of this project was released on August 2021.
+
+  The choice of the tasks permormed by the notebooks was dictated by the research project I was carrying out at the time. However, there are many more ways these notebooks could assist researcher in running CRYSTAL calculations.
+
+  At the moment, I am working on the following aspects:
+  <ul>
+  <li>spbs: plotting the surface (slab) band structure in order to highlight the surface states;</li>
+  <li>surface adsorption: sample different adsorption sites;</li>
+  <li>generate input from scratch;</li>
+  <li>adsorption of a molecule on a nanoparticle</li>
+  </ul>
+
+  If you would like to be involved or have suggestions about future developments, please get in touch (camino.bruno@gmail.com).
