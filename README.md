@@ -86,9 +86,8 @@ In terms of performing the calculations, the notebooks offer three options:
   </ul>
 
   <b>Future development</b>
-  The first verion of this project was released on August 2021.
 
-  The choice of the tasks permormed by the notebooks was dictated by the research project I was carrying out at the time. However, there are many more ways these notebooks could assist researcher in running CRYSTAL calculations.
+  The first verion of this project was released on August 2021.The choice of the tasks permormed by the notebooks was dictated by the research project I was carrying out at the time. However, there are many more ways these notebooks could assist researcher in running CRYSTAL calculations.
 
   At the moment, I am working on the following aspects:
   <ul>
