@@ -47,7 +47,7 @@ STRUCTURE
 </ul>
 
 For a complete list of the different tasks that can be performed in the jupyter notebooks and functions, please refer to the picture below.
-![repository_structure](repository_structure.png)
+![repository_structure](images/repository_structure.jpg)
 
 WHAT TO MODIFY IF YOU ARE EXPERIENCED OR NOT
 
