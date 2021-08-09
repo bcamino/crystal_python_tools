@@ -164,7 +164,7 @@ def plot_spbs(file_name,k_path_s,k_labels,energy_range,run,title,n_bands=10,newk
         fermi_line = [[0, np.amax(bands[:,1:,0])+1],[efermi,efermi]] 
     else:
         fermi_line = [[0, np.amax(bands[:,1:,0])+1],[0,0]] 
-    ax1.plot(fermi_line[0],fermi_line[1], 'k--',color='grey')
+    ax1.plot(fermi_line[0],fermi_line[1], '--',color='grey')
         
     if len(files_not_found) > 0:
         print('The following band file(s) were not found: '+ ','.join(files_not_found))

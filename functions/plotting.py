@@ -246,14 +246,14 @@ def plot_es(band_file_name,dos_file_name,k_labels,energy_range,dos_labels=False,
         else:
             fermi_line = [[0, np.amax(dos[:,1:])+1],[0,0]] 
     
-        ax2.plot(fermi_line[0],fermi_line[1], 'k--',color='grey')
+        ax2.plot(fermi_line[0],fermi_line[1], '--',color='grey')
         
         #Display E Fermi on band structure
         if not_scaled == True:
             fermi_line = [[0, np.amax(bands[:,1:,0])+1],[efermi_band,efermi_band]] 
         else:
             fermi_line = [[0, np.amax(bands[:,1:,0])+1],[0,0]] 
-        ax1.plot(fermi_line[0],fermi_line[1], 'k--',color='grey')
+        ax1.plot(fermi_line[0],fermi_line[1], '--',color='grey')
     
     ax1.set_title('Band structure', size = 18)
     ax1.set_xlabel('k point', size =12)
@@ -320,7 +320,7 @@ def plot_bs(band_file_name,k_labels,energy_range,title=False,not_scaled=False):
     else:
         fermi_line = [[0, np.amax(bands[:,1:,0])+1],[0,0]] 
         
-    ax1.plot(fermi_line[0],fermi_line[1], 'k--',color='grey')
+    ax1.plot(fermi_line[0],fermi_line[1], '--',color='grey')
     ax1.set_title('Band structure', size = 18)
     ax1.set_xlabel('k point', size =12)
     ax1.set_ylabel('E-E Fermi (eV)', size =12)
@@ -406,7 +406,7 @@ def plot_doss(dos_file_name,energy_range,dos_labels=False,title=False,not_scaled
     else:
         fermi_line = [[0,0],[0, np.amax(dos[:,1:])+1]] 
 
-    ax2.plot(fermi_line[0],fermi_line[1], 'k--',color='grey')
+    ax2.plot(fermi_line[0],fermi_line[1], '--',color='grey')
     
     
     '''ax1.set_title('Band structure', size = 18)
@@ -487,8 +487,8 @@ def compare_bs(band1_file_name,band2_file_name,k_labels,energy_range,title=False
     else:
         fermi_line1 = [[0, np.amax(bands1[:,1:,0])+1],[0,0]] 
         fermi_line2 = [[0, np.amax(bands2[:,1:,0])+1],[0,0]] 
-    ax1.plot(fermi_line1[0],fermi_line1[1], 'k--',color='grey')
-    ax2.plot(fermi_line2[0],fermi_line2[1], 'k--',color='grey')
+    ax1.plot(fermi_line1[0],fermi_line1[1], '--',color='grey')
+    ax2.plot(fermi_line2[0],fermi_line2[1], '--',color='grey')
     
         
     ax1.set_title(str(band1_file_name), size = 18)
@@ -604,8 +604,8 @@ def compare_es(band1_file_name,band2_file_name,dos1_file_name,dos2_file_name,k_l
         fermi_line1 = [[0, np.amax(dos1[:,1:])+1],[0,0]] 
         fermi_line2 = [[0, np.amax(dos2[:,1:])+1],[0,0]] 
 
-    ax3.plot(fermi_line1[0],fermi_line1[1], 'k--',color='grey')  
-    ax4.plot(fermi_line2[0],fermi_line2[1], 'k--',color='grey') 
+    ax3.plot(fermi_line1[0],fermi_line1[1], '--',color='grey')  
+    ax4.plot(fermi_line2[0],fermi_line2[1], '--',color='grey') 
     
     #Display E Fermi on band structure
     if not_scaled == True:
@@ -614,8 +614,8 @@ def compare_es(band1_file_name,band2_file_name,dos1_file_name,dos2_file_name,k_l
     else:
         fermi_line1 = [[0, np.amax(bands1[:,1:,0])+1],[0,0]] 
         fermi_line2 = [[0, np.amax(bands2[:,1:,0])+1],[0,0]] 
-    ax1.plot(fermi_line1[0],fermi_line1[1], 'k--',color='grey')
-    ax2.plot(fermi_line2[0],fermi_line2[1], 'k--',color='grey')
+    ax1.plot(fermi_line1[0],fermi_line1[1], '--',color='grey')
+    ax2.plot(fermi_line2[0],fermi_line2[1], '--',color='grey')
             
     ax1.set_title('Band structure', size = 18)
     ax1.set_xlabel('k point', size =12)

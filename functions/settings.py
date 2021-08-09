@@ -25,7 +25,7 @@ def runcry(file_name):
             return None
         else:
             run_calc = '/Users/brunocamino/crystal/runcry17 ' + file_name
-            process = subprocess.Popen(run_calc.split(), stdout=subprocess.PIPE)
+            process = subprocess.Popen(run_calc.split(), stdout=subprocess.PIPE, stderr= subprocess.PIPE)
             output, error = process.communicate()   
             index += 1
             try: 
@@ -60,7 +60,7 @@ def runprop(prop_name,wf_file):
             return None
         else:
             run_calc = '/Users/brunocamino/crystal/runprop17 ' + prop_name + ' ' + wf_file
-            process = subprocess.Popen(run_calc.split(), stdout=subprocess.PIPE)
+            process = subprocess.Popen(run_calc.split(), stdout=subprocess.PIPE, stderr= subprocess.PIPE)
             output, error = process.communicate()   
             index += 1
             try: 
@@ -83,7 +83,7 @@ def clean_wf(path,file_name):
     input_name = file_name[:-4]
     file_path = join(directory,input_name)
     clean_folder = 'rm ' + file_path + '.f*' 
-    process = subprocess.Popen(clean_folder.split(), stdout=subprocess.PIPE)
+    process = subprocess.Popen(clean_folder.split(), stdout=subprocess.PIPE, stderr= subprocess.PIPE)
     output, error = process.communicate()
 
 def vesta(file_name):
@@ -108,6 +108,6 @@ def vesta(file_name):
         output, error = process.communicate()  '''
     
     run_vesta = vesta_path + ' ' + file_name
-    process = subprocess.Popen(run_vesta.split(), stdout=subprocess.PIPE)
+    process = subprocess.Popen(run_vesta.split(), stdout=subprocess.PIPE, stderr= subprocess.PIPE)
     output, error = process.communicate()   
     
