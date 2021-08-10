@@ -1,13 +1,13 @@
-date Thu 5 Aug 2021 16:59:53 BST
+date Tue 10 Aug 2021 10:15:03 BST
 master hostname MacBook-Pro.local
 system Darwin MacBook-Pro.local 20.6.0 Darwin Kernel Version 20.6.0: Wed Jun 23 00:26:27 PDT 2021; root:xnu-7195.141.2~5/RELEASE_ARM64_T8101 x86_64
 user brunocamino
-output data in /Users/brunocamino/Desktop/Imperial/crystal_python_tools/examples/workflows/../data/spbs/cu_spbs_9.outp
+output data in /Users/brunocamino/Desktop/Imperial/crystal_python_tools/final/examples/workflows/../data/spbs/cu_spbs_9.outp
 properties in /Users/brunocamino/crystal
-input data in /Users/brunocamino/Desktop/Imperial/crystal_python_tools/examples/workflows/../data/spbs/cu_spbs_9.d3
+input data in /Users/brunocamino/Desktop/Imperial/crystal_python_tools/final/examples/workflows/../data/spbs/cu_spbs_9.d3
 temporary directory /Users/brunocamino/crystal/tmp
-wave function data from /Users/brunocamino/Desktop/Imperial/crystal_python_tools/examples/workflows/../data/spbs/cu.f9
-wave function formatted data from /Users/brunocamino/Desktop/Imperial/crystal_python_tools/examples/workflows/../data/spbs/cu.f98
+wave function data from /Users/brunocamino/Desktop/Imperial/crystal_python_tools/final/examples/workflows/../data/spbs/cu.f9
+wave function formatted data from /Users/brunocamino/Desktop/Imperial/crystal_python_tools/final/examples/workflows/../data/spbs/cu.f98
 NEWK
 0 0
 1 0
@@ -63,7 +63,7 @@ END
  *(18) CAMBRIDGE UNIVERSITY - CAMBRIDGE (UK)                                   *
  *                                                                             *
  *******************************************************************************
- EEEEEEEEEE STARTING  DATE 05 08 2021 TIME 16:59:53.6
+ EEEEEEEEEE STARTING  DATE 10 08 2021 TIME 10:15:03.9
 
  *******************************************************************************
  BN                                                                              
@@ -398,30 +398,32 @@ END
  TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT BAND        TELAPSE        0.11 TCPU        0.11
  ENDPROP   
  TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT END         TELAPSE        0.11 TCPU        0.11
- EEEEEEEEEE TERMINATION  DATE 05 08 2021 TIME 16:59:53.7
-Thu  5 Aug 2021 16:59:53 BST
+ EEEEEEEEEE TERMINATION  DATE 10 08 2021 TIME 10:15:04.0
+Tue 10 Aug 2021 10:15:04 BST
 Contents of temporary directory:
-total 8248
--rw-r--r--  1 brunocamino  admin    71432  5 Aug 16:59 BAND.DAT
--rw-r--r--  1 brunocamino  admin        0  5 Aug 16:59 OPTalist
--rw-r--r--  1 brunocamino  admin        0  5 Aug 16:59 OPTclist
--rw-r--r--  1 brunocamino  admin    84504  5 Aug 16:59 diis_Fg
--rw-r--r--  1 brunocamino  admin     3504  5 Aug 16:59 diis_Fia1
--rw-r--r--  1 brunocamino  admin     2920  5 Aug 16:59 diis_Fia2
--rw-r--r--  1 brunocamino  admin        0  5 Aug 15:52 diis_Sk
--rw-r--r--  1 brunocamino  admin    86888  5 Aug 16:59 fort.10
--rw-r--r--  1 brunocamino  admin    96328  5 Aug 16:59 fort.11
--rw-r--r--  1 brunocamino  admin  1647072  5 Aug 16:59 fort.13
--rw-r--r--  1 brunocamino  admin   638230  5 Aug 16:59 fort.25
--rw-r--r--  1 brunocamino  admin    96328  5 Aug 16:59 fort.3
--rw-r--r--  1 brunocamino  admin    47592  5 Aug 16:59 fort.61
--rw-r--r--  1 brunocamino  admin      752  5 Aug 16:59 fort.62
--rw-r--r--  1 brunocamino  admin   223080  5 Aug 16:59 fort.8
--rw-r--r--  1 brunocamino  admin   139272  5 Aug 16:59 fort.9
--rw-r--r--  1 brunocamino  admin   355987  5 Aug 16:59 fort.98
--rw-r--r--  1 brunocamino  admin        0  5 Aug 16:59 scanlist
-file fort.98 saved as /Users/brunocamino/Desktop/Imperial/crystal_python_tools/examples/workflows/../data/spbs/cu_spbs_9.f98
-file fort.13 saved as /Users/brunocamino/Desktop/Imperial/crystal_python_tools/examples/workflows/../data/spbs/cu_spbs_9.f13
-file fort.25 saved as /Users/brunocamino/Desktop/Imperial/crystal_python_tools/examples/workflows/../data/spbs/cu_spbs_9.f25
-file BAND.DAT saved as /Users/brunocamino/Desktop/Imperial/crystal_python_tools/examples/workflows/../data/spbs/cu_spbs_9_dat.BAND
-output of Crgra in file /Users/brunocamino/Desktop/Imperial/crystal_python_tools/examples/workflows/../data/spbs/cu_spbs_9.outpg
+total 8280
+-rw-r--r--  1 brunocamino  admin    71432 10 Aug 10:15 BAND.DAT
+-rw-r--r--  1 brunocamino  admin    14959 10 Aug 10:12 DOSS.DAT
+-rw-r--r--  1 brunocamino  admin        0 10 Aug 10:15 OPTalist
+-rw-r--r--  1 brunocamino  admin        0 10 Aug 10:15 OPTclist
+-rw-r--r--  1 brunocamino  admin    84504 10 Aug 10:14 diis_Fg
+-rw-r--r--  1 brunocamino  admin     3504 10 Aug 10:14 diis_Fia1
+-rw-r--r--  1 brunocamino  admin     2920 10 Aug 10:14 diis_Fia2
+-rw-r--r--  1 brunocamino  admin        0 10 Aug 10:03 diis_Sk
+-rw-r--r--  1 brunocamino  admin    86888 10 Aug 10:15 fort.10
+-rw-r--r--  1 brunocamino  admin    96328 10 Aug 10:15 fort.11
+-rw-r--r--  1 brunocamino  admin  1647072 10 Aug 10:15 fort.13
+-rw-r--r--  1 brunocamino  admin   638230 10 Aug 10:15 fort.25
+-rw-r--r--  1 brunocamino  admin    96328 10 Aug 10:15 fort.3
+-rw-r--r--  1 brunocamino  admin    47592 10 Aug 10:15 fort.61
+-rw-r--r--  1 brunocamino  admin      752 10 Aug 10:15 fort.62
+-rw-r--r--  1 brunocamino  admin   223080 10 Aug 10:15 fort.8
+-rw-r--r--  1 brunocamino  admin   139272 10 Aug 10:15 fort.9
+-rw-r--r--  1 brunocamino  admin   355987 10 Aug 10:15 fort.98
+-rw-r--r--  1 brunocamino  admin        0 10 Aug 10:15 scanlist
+file fort.98 saved as /Users/brunocamino/Desktop/Imperial/crystal_python_tools/final/examples/workflows/../data/spbs/cu_spbs_9.f98
+file fort.13 saved as /Users/brunocamino/Desktop/Imperial/crystal_python_tools/final/examples/workflows/../data/spbs/cu_spbs_9.f13
+file fort.25 saved as /Users/brunocamino/Desktop/Imperial/crystal_python_tools/final/examples/workflows/../data/spbs/cu_spbs_9.f25
+file BAND.DAT saved as /Users/brunocamino/Desktop/Imperial/crystal_python_tools/final/examples/workflows/../data/spbs/cu_spbs_9_dat.BAND
+file DOSS.DAT saved as /Users/brunocamino/Desktop/Imperial/crystal_python_tools/final/examples/workflows/../data/spbs/cu_spbs_9_dat.DOSS
+output of Crgra in file /Users/brunocamino/Desktop/Imperial/crystal_python_tools/final/examples/workflows/../data/spbs/cu_spbs_9.outpg

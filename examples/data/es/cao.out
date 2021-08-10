@@ -1,13 +1,13 @@
-date Wed 4 Aug 2021 15:10:26 BST
+date Tue 10 Aug 2021 10:12:33 BST
 hostname MacBook-Pro.local
 system Darwin MacBook-Pro.local 20.6.0 Darwin Kernel Version 20.6.0: Wed Jun 23 00:26:27 PDT 2021; root:xnu-7195.141.2~5/RELEASE_ARM64_T8101 x86_64
 user brunocamino
-output data in /Users/brunocamino/Desktop/Imperial/crystal_python_tools/examples/workflows/../data/es/cao.out
+output data in /Users/brunocamino/Desktop/Imperial/crystal_python_tools/final/examples/workflows/../data/es/cao.out
 crystal executable in /Users/brunocamino/crystal
-input data in /Users/brunocamino/Desktop/Imperial/crystal_python_tools/examples/workflows/../data/es/cao.d12
+input data in /Users/brunocamino/Desktop/Imperial/crystal_python_tools/final/examples/workflows/../data/es/cao.d12
 temporary directory /Users/brunocamino/crystal/tmp
-external geometry input from /Users/brunocamino/Desktop/Imperial/crystal_python_tools/examples/workflows/../data/es/cao.gui
-external geometry input saved in /Users/brunocamino/Desktop/Imperial/crystal_python_tools/examples/workflows/../data/es/cao_inp.gui
+external geometry input from /Users/brunocamino/Desktop/Imperial/crystal_python_tools/final/examples/workflows/../data/es/cao.gui
+external geometry input saved in /Users/brunocamino/Desktop/Imperial/crystal_python_tools/final/examples/workflows/../data/es/cao_inp.gui
 MGO BULK - GEOMETRY TEST
 CRYSTAL
 0 0 0
@@ -128,7 +128,7 @@ ENDSCF
  *(18) CAMBRIDGE UNIVERSITY - CAMBRIDGE (UK)                                   *
  *                                                                             *
  *******************************************************************************
- EEEEEEEEEE STARTING  DATE 04 08 2021 TIME 15:10:26.5
+ EEEEEEEEEE STARTING  DATE 10 08 2021 TIME 10:12:33.2
  MGO BULK - GEOMETRY TEST                                                        
 
  CRYSTAL CALCULATION
@@ -482,7 +482,8 @@ ENDSCF
  ERROR **** WBECKE_F **** NEIGHBOR LIST TOO BIG - INCREASE LIMBEK
  TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT ERR         TELAPSE        2.03 TCPU        0.03
 Contents of temporary directory:
-SCF abnormal end - no wf written in fort.9
-geometry input file fort.34 saved as /Users/brunocamino/Desktop/Imperial/crystal_python_tools/examples/workflows/../data/es/cao.gui
-geometry input file fort.34 saved as /Users/brunocamino/Desktop/Imperial/crystal_python_tools/examples/workflows/../data/es/cao.gui
-temporary directory /Users/brunocamino/crystal/tmp removed
+wave function binary file /Users/brunocamino/Desktop/Imperial/crystal_python_tools/final/examples/workflows/../data/es/cao.f9
+geometry input file fort.34 saved as /Users/brunocamino/Desktop/Imperial/crystal_python_tools/final/examples/workflows/../data/es/cao.gui
+file BAND.DAT saved as /Users/brunocamino/Desktop/Imperial/crystal_python_tools/final/examples/workflows/../data/es/cao_dat.BAND
+file DOSS.DAT saved as /Users/brunocamino/Desktop/Imperial/crystal_python_tools/final/examples/workflows/../data/es/cao_dat.DOSS
+output of Crgra in file /Users/brunocamino/Desktop/Imperial/crystal_python_tools/final/examples/workflows/../data/es/cao.outg

@@ -1,13 +1,13 @@
-date Thu 5 Aug 2021 16:26:28 BST
+date Tue 10 Aug 2021 10:13:58 BST
 hostname MacBook-Pro.local
 system Darwin MacBook-Pro.local 20.6.0 Darwin Kernel Version 20.6.0: Wed Jun 23 00:26:27 PDT 2021; root:xnu-7195.141.2~5/RELEASE_ARM64_T8101 x86_64
 user brunocamino
-output data in /Users/brunocamino/Desktop/Imperial/crystal_python_tools/examples/workflows/../data/spbs/si.out
+output data in /Users/brunocamino/Desktop/Imperial/crystal_python_tools/final/examples/workflows/../data/spbs/si.out
 crystal executable in /Users/brunocamino/crystal
-input data in /Users/brunocamino/Desktop/Imperial/crystal_python_tools/examples/workflows/../data/spbs/si.d12
+input data in /Users/brunocamino/Desktop/Imperial/crystal_python_tools/final/examples/workflows/../data/spbs/si.d12
 temporary directory /Users/brunocamino/crystal/tmp
-external geometry input from /Users/brunocamino/Desktop/Imperial/crystal_python_tools/examples/workflows/../data/spbs/si.gui
-external geometry input saved in /Users/brunocamino/Desktop/Imperial/crystal_python_tools/examples/workflows/../data/spbs/si_inp.gui
+external geometry input from /Users/brunocamino/Desktop/Imperial/crystal_python_tools/final/examples/workflows/../data/spbs/si.gui
+external geometry input saved in /Users/brunocamino/Desktop/Imperial/crystal_python_tools/final/examples/workflows/../data/spbs/si_inp.gui
 SILICON BULK 
 CRYSTAL
 0 0 0
@@ -106,7 +106,7 @@ ENDSCF
  *(18) CAMBRIDGE UNIVERSITY - CAMBRIDGE (UK)                                   *
  *                                                                             *
  *******************************************************************************
- EEEEEEEEEE STARTING  DATE 05 08 2021 TIME 16:26:28.4
+ EEEEEEEEEE STARTING  DATE 10 08 2021 TIME 10:13:58.4
  SILICON BULK                                                                    
 
  CRYSTAL CALCULATION
@@ -400,12 +400,12 @@ ENDSCF
  DISK SPACE FOR EIGENVECTORS (FTN 10)       37584 REALS
 
  SYMMETRY ADAPTION OF THE BLOCH FUNCTIONS ENABLED
- TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT gordsh1     TELAPSE        0.02 TCPU        0.01
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT gordsh1     TELAPSE        0.01 TCPU        0.01
 
  MATRIX SIZE: P(G)   40988, F(G)    7986, P(G) IRR    1468, F(G) IRR     746
  MAX G-VECTOR INDEX FOR 1- AND 2-ELECTRON INTEGRALS 237
 
- TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT INPUT       TELAPSE        0.02 TCPU        0.01
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT INPUT       TELAPSE        0.01 TCPU        0.01
 
  NEIGHBORS OF THE NON-EQUIVALENT ATOMS
 
@@ -438,8 +438,8 @@ ENDSCF
 
 
  THERE ARE NO SYMMETRY ALLOWED DIRECTIONS
- TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT SYMM        TELAPSE        0.03 TCPU        0.02
- TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT INT_SCREEN  TELAPSE        0.03 TCPU        0.02
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT SYMM        TELAPSE        0.01 TCPU        0.01
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT INT_SCREEN  TELAPSE        0.02 TCPU        0.01
  INFORMATION **** EXCBUF **** EXCH. BIPO BUFFER: WORDS USED =      195480
 
  DFT PARAMETERS
@@ -448,7 +448,7 @@ ENDSCF
    1  14  SI     14.0000      0.0000     1.17000000
 
  SIZE OF GRID=       6932
- TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MAKE_GRID2  TELAPSE        0.12 TCPU        0.11
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MAKE_GRID2  TELAPSE        0.11 TCPU        0.11
  BECKE WEIGHT FUNCTION
  RADSAFE =     2.00
  TOLERANCES - DENSITY:10**- 6; POTENTIAL:10**- 9; GRID WGT:10**-14
@@ -458,8 +458,8 @@ ENDSCF
  ANGULAR INTEGRATION - INTERVALS (ACCURACY LEVEL [N. POINTS] UPPER LIMIT):
   1(  6[ 146]   0.2)  2( 11[ 302]   0.5)  3( 14[ 590]   0.9)  4( 18[1454]   3.5)
   5( 14[ 590]9999.0)
- TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT INT_CALC    TELAPSE        0.13 TCPU        0.11
- EEEEEEEEEE INT_CALC TERMINATION  DATE 05 08 2021 TIME 16:26:28.6
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT INT_CALC    TELAPSE        0.12 TCPU        0.11
+ EEEEEEEEEE INT_CALC TERMINATION  DATE 10 08 2021 TIME 10:13:58.5
 
  *******************************************************************************
  SILICON BULK                                                                    
@@ -468,7 +468,7 @@ ENDSCF
 
  CAPPA:IS1  6;IS2  6;IS3  6; K PTS MONK NET  16; SYMMOPS:K SPACE  48;G SPACE  48
 
- TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT SDIK        TELAPSE        0.13 TCPU        0.12
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT SDIK        TELAPSE        0.12 TCPU        0.12
 
  AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
          ATOMIC WAVEFUNCTION(S)
@@ -488,115 +488,115 @@ ENDSCF
  CHARGE NORMALIZATION FACTOR   1.00000000
  TOTAL ATOMIC CHARGES:
   14.0000000  14.0000000
- TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MOQGAD      TELAPSE        0.16 TCPU        0.15
- TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT SHELLXN     TELAPSE        0.74 TCPU        0.72
- TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MONMO3      TELAPSE        0.75 TCPU        0.73
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MOQGAD      TELAPSE        0.15 TCPU        0.14
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT SHELLXN     TELAPSE        0.72 TCPU        0.71
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MONMO3      TELAPSE        0.73 TCPU        0.72
  NUMERICALLY INTEGRATED DENSITY     27.9999889411
- TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT NUMDFT      TELAPSE        0.86 TCPU        0.84
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT NUMDFT      TELAPSE        0.83 TCPU        0.83
  CYC   0 ETOT(AU) -5.788652508705E+02 DETOT -5.79E+02 tst  0.00E+00 PX  1.00E+00
- TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT DIIS        TELAPSE        0.87 TCPU        0.84
- TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT FDIK        TELAPSE        0.87 TCPU        0.84
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT DIIS        TELAPSE        0.84 TCPU        0.83
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT FDIK        TELAPSE        0.84 TCPU        0.84
  INSULATING STATE
  TOP OF VALENCE BANDS -    BAND     14; K    1; EIG -7.2587483E-02 AU
  BOTTOM OF VIRTUAL BANDS - BAND     15; K   10; EIG -6.8340155E-03 AU
  INDIRECT ENERGY BAND GAP:   1.7892 eV
  BOTTOM OF VIRTUAL BANDS - BAND     15; K    1; EIG  2.5361372E-02 AU
- TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT PDIG        TELAPSE        0.89 TCPU        0.87
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT PDIG        TELAPSE        0.86 TCPU        0.86
  CHARGE NORMALIZATION FACTOR   1.00000000
  TOTAL ATOMIC CHARGES:
   14.0000000  14.0000000
- TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MOQGAD      TELAPSE        0.90 TCPU        0.87
- TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT SHELLXN     TELAPSE        1.50 TCPU        1.47
- TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MONMO3      TELAPSE        1.51 TCPU        1.48
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MOQGAD      TELAPSE        0.87 TCPU        0.86
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT SHELLXN     TELAPSE        1.45 TCPU        1.45
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MONMO3      TELAPSE        1.46 TCPU        1.45
  NUMERICALLY INTEGRATED DENSITY     27.9999889116
- TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT NUMDFT      TELAPSE        1.76 TCPU        1.73
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT NUMDFT      TELAPSE        1.71 TCPU        1.70
  CYC   1 ETOT(AU) -5.789320562282E+02 DETOT -6.68E-02 tst  0.00E+00 PX  1.00E+00
- TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT DIIS        TELAPSE        1.76 TCPU        1.73
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT DIIS        TELAPSE        1.71 TCPU        1.70
  DIIS TEST: 0.28253E-02 AT SCF   CYCLE   1 - MIX   70 %
- TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT FDIK        TELAPSE        1.77 TCPU        1.73
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT FDIK        TELAPSE        1.71 TCPU        1.71
  INSULATING STATE
  TOP OF VALENCE BANDS -    BAND     14; K    1; EIG -8.9337759E-02 AU
  BOTTOM OF VIRTUAL BANDS - BAND     15; K   10; EIG -1.5461229E-02 AU
  INDIRECT ENERGY BAND GAP:   2.0103 eV
  BOTTOM OF VIRTUAL BANDS - BAND     15; K    1; EIG  1.6772953E-02 AU
- TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT PDIG        TELAPSE        1.79 TCPU        1.76
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT PDIG        TELAPSE        1.74 TCPU        1.73
  CHARGE NORMALIZATION FACTOR   1.00000000
  TOTAL ATOMIC CHARGES:
   14.0000000  14.0000000
- TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MOQGAD      TELAPSE        1.79 TCPU        1.76
- TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT SHELLXN     TELAPSE        2.39 TCPU        2.36
- TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MONMO3      TELAPSE        2.40 TCPU        2.36
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MOQGAD      TELAPSE        1.74 TCPU        1.74
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT SHELLXN     TELAPSE        2.33 TCPU        2.32
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MONMO3      TELAPSE        2.33 TCPU        2.32
  NUMERICALLY INTEGRATED DENSITY     27.9999889222
- TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT NUMDFT      TELAPSE        2.66 TCPU        2.62
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT NUMDFT      TELAPSE        2.58 TCPU        2.57
  CYC   2 ETOT(AU) -5.789328604154E+02 DETOT -8.04E-04 tst  7.11E-05 PX  1.04E-02
- TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT DIIS        TELAPSE        2.67 TCPU        2.63
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT DIIS        TELAPSE        2.58 TCPU        2.57
  DIIS TEST: 0.13196E-02 AT SCF   CYCLE   2 - DIIS ACTIVE - HISTORY:     2 CYCLES
- TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT FDIK        TELAPSE        2.67 TCPU        2.63
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT FDIK        TELAPSE        2.58 TCPU        2.58
  INSULATING STATE
  TOP OF VALENCE BANDS -    BAND     14; K    1; EIG -1.3020561E-01 AU
  BOTTOM OF VIRTUAL BANDS - BAND     15; K   10; EIG -3.5570463E-02 AU
  INDIRECT ENERGY BAND GAP:   2.5752 eV
  BOTTOM OF VIRTUAL BANDS - BAND     15; K    1; EIG -3.3764215E-03 AU
- TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT PDIG        TELAPSE        2.69 TCPU        2.66
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT PDIG        TELAPSE        2.61 TCPU        2.60
  CHARGE NORMALIZATION FACTOR   1.00000000
  TOTAL ATOMIC CHARGES:
   14.0000000  14.0000000
- TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MOQGAD      TELAPSE        2.70 TCPU        2.66
- TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT SHELLXN     TELAPSE        3.32 TCPU        3.28
- TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MONMO3      TELAPSE        3.32 TCPU        3.29
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MOQGAD      TELAPSE        2.61 TCPU        2.61
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT SHELLXN     TELAPSE        3.20 TCPU        3.20
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MONMO3      TELAPSE        3.21 TCPU        3.20
  NUMERICALLY INTEGRATED DENSITY     27.9999889247
- TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT NUMDFT      TELAPSE        3.61 TCPU        3.54
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT NUMDFT      TELAPSE        3.46 TCPU        3.45
  CYC   3 ETOT(AU) -5.789337055210E+02 DETOT -8.45E-04 tst  4.81E-04 PX  2.81E-02
- TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT DIIS        TELAPSE        3.62 TCPU        3.55
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT DIIS        TELAPSE        3.46 TCPU        3.46
  DIIS TEST: 0.21278E-05 AT SCF   CYCLE   3 - DIIS ACTIVE - HISTORY:     3 CYCLES
- TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT FDIK        TELAPSE        3.62 TCPU        3.55
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT FDIK        TELAPSE        3.47 TCPU        3.46
  INSULATING STATE
  TOP OF VALENCE BANDS -    BAND     14; K    1; EIG -1.3108253E-01 AU
  BOTTOM OF VIRTUAL BANDS - BAND     15; K   10; EIG -3.6115304E-02 AU
  INDIRECT ENERGY BAND GAP:   2.5842 eV
  BOTTOM OF VIRTUAL BANDS - BAND     15; K    1; EIG -3.9539956E-03 AU
- TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT PDIG        TELAPSE        3.64 TCPU        3.57
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT PDIG        TELAPSE        3.49 TCPU        3.48
  CHARGE NORMALIZATION FACTOR   1.00000000
  TOTAL ATOMIC CHARGES:
   14.0000000  14.0000000
- TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MOQGAD      TELAPSE        3.65 TCPU        3.58
- TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT SHELLXN     TELAPSE        4.26 TCPU        4.19
- TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MONMO3      TELAPSE        4.26 TCPU        4.19
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MOQGAD      TELAPSE        3.50 TCPU        3.49
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT SHELLXN     TELAPSE        4.09 TCPU        4.08
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MONMO3      TELAPSE        4.10 TCPU        4.09
  NUMERICALLY INTEGRATED DENSITY     27.9999889279
- TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT NUMDFT      TELAPSE        4.52 TCPU        4.44
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT NUMDFT      TELAPSE        4.36 TCPU        4.34
  CYC   4 ETOT(AU) -5.789337067072E+02 DETOT -1.19E-06 tst  1.70E-07 PX  5.99E-04
- TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT DIIS        TELAPSE        4.52 TCPU        4.45
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT DIIS        TELAPSE        4.37 TCPU        4.35
  DIIS TEST: 0.19878E-08 AT SCF   CYCLE   4 - DIIS ACTIVE - HISTORY:     4 CYCLES
- TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT FDIK        TELAPSE        4.53 TCPU        4.45
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT FDIK        TELAPSE        4.37 TCPU        4.35
  INSULATING STATE
  TOP OF VALENCE BANDS -    BAND     14; K    1; EIG -1.3102339E-01 AU
  BOTTOM OF VIRTUAL BANDS - BAND     15; K   10; EIG -3.6076263E-02 AU
  INDIRECT ENERGY BAND GAP:   2.5836 eV
  BOTTOM OF VIRTUAL BANDS - BAND     15; K    1; EIG -3.9101185E-03 AU
- TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT PDIG        TELAPSE        4.55 TCPU        4.47
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT PDIG        TELAPSE        4.39 TCPU        4.37
  CHARGE NORMALIZATION FACTOR   1.00000000
  TOTAL ATOMIC CHARGES:
   14.0000000  14.0000000
- TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MOQGAD      TELAPSE        4.55 TCPU        4.48
- TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT SHELLXN     TELAPSE        5.23 TCPU        5.10
- TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MONMO3      TELAPSE        5.23 TCPU        5.11
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MOQGAD      TELAPSE        4.40 TCPU        4.38
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT SHELLXN     TELAPSE        5.00 TCPU        4.97
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MONMO3      TELAPSE        5.00 TCPU        4.98
  NUMERICALLY INTEGRATED DENSITY     27.9999889276
- TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT NUMDFT      TELAPSE        5.49 TCPU        5.36
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT NUMDFT      TELAPSE        5.26 TCPU        5.23
  CYC   5 ETOT(AU) -5.789337066878E+02 DETOT  1.95E-08 tst  3.23E-10 PX  2.50E-05
- TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT DIIS        TELAPSE        5.49 TCPU        5.36
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT DIIS        TELAPSE        5.26 TCPU        5.24
  DIIS TEST: 0.12134E-10 AT SCF   CYCLE   5 - DIIS ACTIVE - HISTORY:     5 CYCLES
- TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT FDIK        TELAPSE        5.49 TCPU        5.37
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT FDIK        TELAPSE        5.27 TCPU        5.24
  INSULATING STATE
  TOP OF VALENCE BANDS -    BAND     14; K    1; EIG -1.3102717E-01 AU
  BOTTOM OF VIRTUAL BANDS - BAND     15; K   10; EIG -3.6079751E-02 AU
  INDIRECT ENERGY BAND GAP:   2.5837 eV
  BOTTOM OF VIRTUAL BANDS - BAND     15; K    1; EIG -3.9135878E-03 AU
- TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT PDIG        TELAPSE        5.52 TCPU        5.39
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT PDIG        TELAPSE        5.29 TCPU        5.26
  CHARGE NORMALIZATION FACTOR   1.00000000
  TOTAL ATOMIC CHARGES:
   14.0000000  14.0000000
- TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MOQGAD      TELAPSE        5.52 TCPU        5.39
- TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT SHELLXN     TELAPSE        6.12 TCPU        5.99
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MOQGAD      TELAPSE        5.30 TCPU        5.27
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT SHELLXN     TELAPSE        5.90 TCPU        5.87
  +++ ENERGIES IN A.U. +++
  ::: EXT EL-POLE                                  -5.5780352895344E+02
  ::: EXT EL-SPHEROPOLE                             5.9028965082399E+00
@@ -607,9 +607,9 @@ ENDSCF
  ::: KINETIC ENERGY                                5.7807410080549E+02
  ::: PSEUDO TOTAL   ENERGY                        -5.4518213125371E+02
  ::: VIRIAL COEFFICIENT                            1.0292826949123E+00
- TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MONMO3      TELAPSE        6.13 TCPU        6.00
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT MONMO3      TELAPSE        5.90 TCPU        5.87
  NUMERICALLY INTEGRATED DENSITY     27.9999889276
- TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT NUMDFT      TELAPSE        6.38 TCPU        6.25
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT NUMDFT      TELAPSE        6.15 TCPU        6.13
  CYC   6 ETOT(AU) -5.789337066888E+02 DETOT -1.07E-09 tst  5.53E-13 PX  2.50E-05
 
  == SCF ENDED - CONVERGENCE ON ENERGY      E(AU) -5.7893370668883E+02 CYCLES   6
@@ -619,40 +619,35 @@ ENDSCF
 
 
  TOTAL ENERGY(DFT)(AU)(  6) -5.7893370668883E+02 DE-1.1E-09 tester 5.5E-13
- TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT EDFT        TELAPSE        6.38 TCPU        6.25
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT EDFT        TELAPSE        6.15 TCPU        6.13
  EIGENVECTORS IN FORTRAN UNIT  8
- TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT END         TELAPSE        6.39 TCPU        6.26
- EEEEEEEEEE TERMINATION  DATE 05 08 2021 TIME 16:26:34.8
-Thu  5 Aug 2021 16:26:34 BST
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT END         TELAPSE        6.16 TCPU        6.13
+ EEEEEEEEEE TERMINATION  DATE 10 08 2021 TIME 10:14:04.5
+Tue 10 Aug 2021 10:14:04 BST
 Contents of temporary directory:
-total 14576
--rw-r--r--  1 brunocamino  admin    71256  5 Aug 16:15 BAND.DAT
--rw-r--r--  1 brunocamino  admin        0  5 Aug 16:15 OPTalist
--rw-r--r--  1 brunocamino  admin        0  5 Aug 16:15 OPTclist
--rw-r--r--  1 brunocamino  admin    35856  5 Aug 16:26 diis_Fg
--rw-r--r--  1 brunocamino  admin     2304  5 Aug 16:26 diis_Fia1
--rw-r--r--  1 brunocamino  admin     2880  5 Aug 16:26 diis_Fia2
--rw-r--r--  1 brunocamino  admin        0  5 Aug 15:52 diis_Sk
--rw-r--r--  1 brunocamino  admin   109944  5 Aug 16:26 fort.10
--rw-r--r--  1 brunocamino  admin     5976  5 Aug 16:26 fort.11
--rw-r--r--  1 brunocamino  admin   983736  5 Aug 16:15 fort.13
--rw-r--r--  1 brunocamino  admin  4579272  5 Aug 16:15 fort.25
--rw-r--r--  1 brunocamino  admin    63896  5 Aug 16:15 fort.3
--rw-r--r--  1 brunocamino  admin    11997  5 Aug 16:26 fort.34
--rw-r--r--  1 brunocamino  admin    42296  5 Aug 16:26 fort.61
--rw-r--r--  1 brunocamino  admin    41360  5 Aug 16:26 fort.62
--rw-r--r--  1 brunocamino  admin   109944  5 Aug 16:26 fort.8
--rw-r--r--  1 brunocamino  admin   119356  5 Aug 16:26 fort.9
--rw-r--r--  1 brunocamino  admin    14168  5 Aug 16:26 fort.95
--rw-r--r--  1 brunocamino  admin   303411  5 Aug 16:26 fort.98
--rw-r--r--  1 brunocamino  admin        0  5 Aug 16:15 scanlist
-wave function binary file /Users/brunocamino/Desktop/Imperial/crystal_python_tools/examples/workflows/../data/spbs/si.f9
-file fort.98 saved as /Users/brunocamino/Desktop/Imperial/crystal_python_tools/examples/workflows/../data/spbs/si.f98
-file fort.13 saved as /Users/brunocamino/Desktop/Imperial/crystal_python_tools/examples/workflows/../data/spbs/si.f13
-geometry input file fort.34 saved as /Users/brunocamino/Desktop/Imperial/crystal_python_tools/examples/workflows/../data/spbs/si.gui
-file fort.25 saved as /Users/brunocamino/Desktop/Imperial/crystal_python_tools/examples/workflows/../data/spbs/si.f25
-file fort.13 saved as /Users/brunocamino/Desktop/Imperial/crystal_python_tools/examples/workflows/../data/spbs/si.f13
-geometry input file fort.34 saved as /Users/brunocamino/Desktop/Imperial/crystal_python_tools/examples/workflows/../data/spbs/si.gui
-file fort.25 saved as /Users/brunocamino/Desktop/Imperial/crystal_python_tools/examples/workflows/../data/spbs/si.f25
-file BAND.DAT saved as /Users/brunocamino/Desktop/Imperial/crystal_python_tools/examples/workflows/../data/spbs/si_dat.BAND
-output of Crgra in file /Users/brunocamino/Desktop/Imperial/crystal_python_tools/examples/workflows/../data/spbs/si.outg
+total 2144
+-rw-r--r--  1 brunocamino  admin   71696 10 Aug 10:12 BAND.DAT
+-rw-r--r--  1 brunocamino  admin   14959 10 Aug 10:12 DOSS.DAT
+-rw-r--r--  1 brunocamino  admin       0 10 Aug 10:13 OPTalist
+-rw-r--r--  1 brunocamino  admin       0 10 Aug 10:13 OPTclist
+-rw-r--r--  1 brunocamino  admin   35856 10 Aug 10:14 diis_Fg
+-rw-r--r--  1 brunocamino  admin    2304 10 Aug 10:14 diis_Fia1
+-rw-r--r--  1 brunocamino  admin    2880 10 Aug 10:14 diis_Fia2
+-rw-r--r--  1 brunocamino  admin       0 10 Aug 10:03 diis_Sk
+-rw-r--r--  1 brunocamino  admin  109944 10 Aug 10:14 fort.10
+-rw-r--r--  1 brunocamino  admin    5976 10 Aug 10:14 fort.11
+-rw-r--r--  1 brunocamino  admin   11997 10 Aug 10:13 fort.34
+-rw-r--r--  1 brunocamino  admin   42296 10 Aug 10:13 fort.61
+-rw-r--r--  1 brunocamino  admin   41360 10 Aug 10:13 fort.62
+-rw-r--r--  1 brunocamino  admin  109944 10 Aug 10:14 fort.8
+-rw-r--r--  1 brunocamino  admin  119356 10 Aug 10:14 fort.9
+-rw-r--r--  1 brunocamino  admin   14168 10 Aug 10:14 fort.95
+-rw-r--r--  1 brunocamino  admin  303411 10 Aug 10:14 fort.98
+-rw-r--r--  1 brunocamino  admin       0 10 Aug 10:13 scanlist
+wave function binary file /Users/brunocamino/Desktop/Imperial/crystal_python_tools/final/examples/workflows/../data/spbs/si.f9
+file fort.98 saved as /Users/brunocamino/Desktop/Imperial/crystal_python_tools/final/examples/workflows/../data/spbs/si.f98
+geometry input file fort.34 saved as /Users/brunocamino/Desktop/Imperial/crystal_python_tools/final/examples/workflows/../data/spbs/si.gui
+geometry input file fort.34 saved as /Users/brunocamino/Desktop/Imperial/crystal_python_tools/final/examples/workflows/../data/spbs/si.gui
+file BAND.DAT saved as /Users/brunocamino/Desktop/Imperial/crystal_python_tools/final/examples/workflows/../data/spbs/si_dat.BAND
+file DOSS.DAT saved as /Users/brunocamino/Desktop/Imperial/crystal_python_tools/final/examples/workflows/../data/spbs/si_dat.DOSS
+output of Crgra in file /Users/brunocamino/Desktop/Imperial/crystal_python_tools/final/examples/workflows/../data/spbs/si.outg

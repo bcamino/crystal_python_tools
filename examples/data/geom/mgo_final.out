@@ -1,13 +1,13 @@
-date Thu 5 Aug 2021 11:12:54 BST
+date Tue 10 Aug 2021 10:23:59 BST
 hostname MacBook-Pro.local
 system Darwin MacBook-Pro.local 20.6.0 Darwin Kernel Version 20.6.0: Wed Jun 23 00:26:27 PDT 2021; root:xnu-7195.141.2~5/RELEASE_ARM64_T8101 x86_64
 user brunocamino
-output data in /Users/brunocamino/Desktop/Imperial/crystal_python_tools/examples/workflows/../data/geom/mgo_final.out
+output data in /Users/brunocamino/Desktop/Imperial/crystal_python_tools/final/examples/workflows/../data/geom/mgo_final.out
 crystal executable in /Users/brunocamino/crystal
-input data in /Users/brunocamino/Desktop/Imperial/crystal_python_tools/examples/workflows/../data/geom/mgo_final.d12
+input data in /Users/brunocamino/Desktop/Imperial/crystal_python_tools/final/examples/workflows/../data/geom/mgo_final.d12
 temporary directory /Users/brunocamino/crystal/tmp
-external geometry input from /Users/brunocamino/Desktop/Imperial/crystal_python_tools/examples/workflows/../data/geom/mgo_final.gui
-external geometry input saved in /Users/brunocamino/Desktop/Imperial/crystal_python_tools/examples/workflows/../data/geom/mgo_final_inp.gui
+external geometry input from /Users/brunocamino/Desktop/Imperial/crystal_python_tools/final/examples/workflows/../data/geom/mgo_final.gui
+external geometry input saved in /Users/brunocamino/Desktop/Imperial/crystal_python_tools/final/examples/workflows/../data/geom/mgo_final_inp.gui
 MGO BULK - GEOMETRY TEST
 CRYSTAL
 0 0 0
@@ -135,7 +135,7 @@ ENDSCF
  *(18) CAMBRIDGE UNIVERSITY - CAMBRIDGE (UK)                                   *
  *                                                                             *
  *******************************************************************************
- EEEEEEEEEE STARTING  DATE 05 08 2021 TIME 11:12:54.7
+ EEEEEEEEEE STARTING  DATE 10 08 2021 TIME 10:23:59.6
  MGO BULK - GEOMETRY TEST                                                        
 
  CRYSTAL CALCULATION
@@ -321,14 +321,35 @@ ENDSCF
    15     1 H     0.000000000000E+00  0.000000000000E+00  0.000000000000E+00
  WARNING **** CRYSTA **** TESTGEOM  DIRECTIVE - GEOMETRY EDITING COMPLETE
  TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT END         TELAPSE        0.02 TCPU        0.01
- EEEEEEEEEE TERMINATION  DATE 05 08 2021 TIME 11:12:54.7
-Thu  5 Aug 2021 11:12:54 BST
+ EEEEEEEEEE TERMINATION  DATE 10 08 2021 TIME 10:23:59.6
+Tue 10 Aug 2021 10:23:59 BST
 Contents of temporary directory:
-total 8
--rw-r--r--  1 brunocamino  admin     0  5 Aug 11:11 OPTalist
--rw-r--r--  1 brunocamino  admin     0  5 Aug 11:11 OPTclist
--rw-r--r--  1 brunocamino  admin  1453  5 Aug 11:12 fort.34
--rw-r--r--  1 brunocamino  admin     0  5 Aug 11:11 scanlist
-SCF abnormal end - no wf written in fort.9
-geometry input file fort.34 saved as /Users/brunocamino/Desktop/Imperial/crystal_python_tools/examples/workflows/../data/geom/mgo_final.gui
-output of Crgra in file /Users/brunocamino/Desktop/Imperial/crystal_python_tools/examples/workflows/../data/geom/mgo_final.outg
+total 8656
+-rw-r--r--  1 brunocamino  admin    71432 10 Aug 10:15 BAND.DAT
+-rw-r--r--  1 brunocamino  admin    14959 10 Aug 10:12 DOSS.DAT
+-rw-r--r--  1 brunocamino  admin        0 10 Aug 10:15 OPTalist
+-rw-r--r--  1 brunocamino  admin        0 10 Aug 10:15 OPTclist
+-rw-r--r--  1 brunocamino  admin    84504 10 Aug 10:14 diis_Fg
+-rw-r--r--  1 brunocamino  admin     3504 10 Aug 10:14 diis_Fia1
+-rw-r--r--  1 brunocamino  admin     2920 10 Aug 10:14 diis_Fia2
+-rw-r--r--  1 brunocamino  admin        0 10 Aug 10:03 diis_Sk
+-rw-r--r--  1 brunocamino  admin    86888 10 Aug 10:15 fort.10
+-rw-r--r--  1 brunocamino  admin    96328 10 Aug 10:15 fort.11
+-rw-r--r--  1 brunocamino  admin  1647072 10 Aug 10:15 fort.13
+-rw-r--r--  1 brunocamino  admin   702053 10 Aug 10:15 fort.25
+-rw-r--r--  1 brunocamino  admin    96328 10 Aug 10:15 fort.3
+-rw-r--r--  1 brunocamino  admin     1453 10 Aug 10:23 fort.34
+-rw-r--r--  1 brunocamino  admin    75024 10 Aug 10:15 fort.61
+-rw-r--r--  1 brunocamino  admin    40560 10 Aug 10:15 fort.62
+-rw-r--r--  1 brunocamino  admin   223080 10 Aug 10:15 fort.8
+-rw-r--r--  1 brunocamino  admin   139272 10 Aug 10:15 fort.9
+-rw-r--r--  1 brunocamino  admin   355987 10 Aug 10:15 fort.98
+-rw-r--r--  1 brunocamino  admin        0 10 Aug 10:15 scanlist
+wave function binary file /Users/brunocamino/Desktop/Imperial/crystal_python_tools/final/examples/workflows/../data/geom/mgo_final.f9
+file fort.98 saved as /Users/brunocamino/Desktop/Imperial/crystal_python_tools/final/examples/workflows/../data/geom/mgo_final.f98
+file fort.13 saved as /Users/brunocamino/Desktop/Imperial/crystal_python_tools/final/examples/workflows/../data/geom/mgo_final.f13
+geometry input file fort.34 saved as /Users/brunocamino/Desktop/Imperial/crystal_python_tools/final/examples/workflows/../data/geom/mgo_final.gui
+file fort.25 saved as /Users/brunocamino/Desktop/Imperial/crystal_python_tools/final/examples/workflows/../data/geom/mgo_final.f25
+file BAND.DAT saved as /Users/brunocamino/Desktop/Imperial/crystal_python_tools/final/examples/workflows/../data/geom/mgo_final_dat.BAND
+file DOSS.DAT saved as /Users/brunocamino/Desktop/Imperial/crystal_python_tools/final/examples/workflows/../data/geom/mgo_final_dat.DOSS
+output of Crgra in file /Users/brunocamino/Desktop/Imperial/crystal_python_tools/final/examples/workflows/../data/geom/mgo_final.outg

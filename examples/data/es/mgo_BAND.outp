@@ -1,13 +1,13 @@
-date Wed 4 Aug 2021 15:10:28 BST
+date Tue 10 Aug 2021 10:12:35 BST
 master hostname MacBook-Pro.local
 system Darwin MacBook-Pro.local 20.6.0 Darwin Kernel Version 20.6.0: Wed Jun 23 00:26:27 PDT 2021; root:xnu-7195.141.2~5/RELEASE_ARM64_T8101 x86_64
 user brunocamino
-output data in /Users/brunocamino/Desktop/Imperial/crystal_python_tools/examples/workflows/../data/es/mgo_BAND.outp
+output data in /Users/brunocamino/Desktop/Imperial/crystal_python_tools/final/examples/workflows/../data/es/mgo_BAND.outp
 properties in /Users/brunocamino/crystal
-input data in /Users/brunocamino/Desktop/Imperial/crystal_python_tools/examples/workflows/../data/es/mgo_BAND.d3
+input data in /Users/brunocamino/Desktop/Imperial/crystal_python_tools/final/examples/workflows/../data/es/mgo_BAND.d3
 temporary directory /Users/brunocamino/crystal/tmp
-wave function data from /Users/brunocamino/Desktop/Imperial/crystal_python_tools/examples/workflows/../data/es/mgo.f9
-wave function formatted data from /Users/brunocamino/Desktop/Imperial/crystal_python_tools/examples/workflows/../data/es/mgo.f98
+wave function data from /Users/brunocamino/Desktop/Imperial/crystal_python_tools/final/examples/workflows/../data/es/mgo.f9
+wave function formatted data from /Users/brunocamino/Desktop/Imperial/crystal_python_tools/final/examples/workflows/../data/es/mgo.f98
 NEWK
 12 24
 1 0
@@ -63,7 +63,7 @@ END
  *(18) CAMBRIDGE UNIVERSITY - CAMBRIDGE (UK)                                   *
  *                                                                             *
  *******************************************************************************
- EEEEEEEEEE STARTING  DATE 04 08 2021 TIME 15:10:28.8
+ EEEEEEEEEE STARTING  DATE 10 08 2021 TIME 10:12:35.4
 
  *******************************************************************************
  MGO BULK - GEOMETRY TEST                                                        
@@ -406,26 +406,35 @@ END
 
  CAPPA:IS1 12;IS2 12;IS3 12; K PTS MONK NET  72; SYMMOPS:K SPACE  48;G SPACE  48
 
- TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT BAND        TELAPSE        0.10 TCPU        0.09
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT BAND        TELAPSE        0.10 TCPU        0.08
  ENDPROP   
- TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT END         TELAPSE        0.10 TCPU        0.09
- EEEEEEEEEE TERMINATION  DATE 04 08 2021 TIME 15:10:28.8
-Wed  4 Aug 2021 15:10:28 BST
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT END         TELAPSE        0.10 TCPU        0.08
+ EEEEEEEEEE TERMINATION  DATE 10 08 2021 TIME 10:12:35.5
+Tue 10 Aug 2021 10:12:35 BST
 Contents of temporary directory:
-total 6048
--rw-r--r--  1 brunocamino  admin    71696  4 Aug 15:10 BAND.DAT
--rw-r--r--  1 brunocamino  admin   479624  4 Aug 15:10 fort.10
--rw-r--r--  1 brunocamino  admin    65432  4 Aug 15:10 fort.11
--rw-r--r--  1 brunocamino  admin  1000968  4 Aug 15:10 fort.13
--rw-r--r--  1 brunocamino  admin    64028  4 Aug 15:10 fort.25
--rw-r--r--  1 brunocamino  admin    65432  4 Aug 15:10 fort.3
--rw-r--r--  1 brunocamino  admin    73312  4 Aug 15:10 fort.61
--rw-r--r--  1 brunocamino  admin    39168  4 Aug 15:10 fort.62
--rw-r--r--  1 brunocamino  admin   763104  4 Aug 15:10 fort.8
--rw-r--r--  1 brunocamino  admin   127172  4 Aug 15:10 fort.9
--rw-r--r--  1 brunocamino  admin   323770  4 Aug 15:10 fort.98
-file fort.98 saved as /Users/brunocamino/Desktop/Imperial/crystal_python_tools/examples/workflows/../data/es/mgo_BAND.f98
-file fort.13 saved as /Users/brunocamino/Desktop/Imperial/crystal_python_tools/examples/workflows/../data/es/mgo_BAND.f13
-file fort.25 saved as /Users/brunocamino/Desktop/Imperial/crystal_python_tools/examples/workflows/../data/es/mgo_BAND.f25
-file BAND.DAT saved as /Users/brunocamino/Desktop/Imperial/crystal_python_tools/examples/workflows/../data/es/mgo_BAND_dat.BAND
-output of Crgra in file /Users/brunocamino/Desktop/Imperial/crystal_python_tools/examples/workflows/../data/es/mgo_BAND.outpg
+total 6336
+-rw-r--r--  1 brunocamino  admin    71696 10 Aug 10:12 BAND.DAT
+-rw-r--r--  1 brunocamino  admin    14959 10 Aug 10:04 DOSS.DAT
+-rw-r--r--  1 brunocamino  admin        0 10 Aug 10:12 OPTalist
+-rw-r--r--  1 brunocamino  admin        0 10 Aug 10:12 OPTclist
+-rw-r--r--  1 brunocamino  admin    54600 10 Aug 10:12 diis_Fg
+-rw-r--r--  1 brunocamino  admin     4896 10 Aug 10:12 diis_Fia1
+-rw-r--r--  1 brunocamino  admin     4080 10 Aug 10:12 diis_Fia2
+-rw-r--r--  1 brunocamino  admin        0 10 Aug 10:03 diis_Sk
+-rw-r--r--  1 brunocamino  admin   479624 10 Aug 10:12 fort.10
+-rw-r--r--  1 brunocamino  admin    65432 10 Aug 10:12 fort.11
+-rw-r--r--  1 brunocamino  admin  1000968 10 Aug 10:12 fort.13
+-rw-r--r--  1 brunocamino  admin    64028 10 Aug 10:12 fort.25
+-rw-r--r--  1 brunocamino  admin    65432 10 Aug 10:12 fort.3
+-rw-r--r--  1 brunocamino  admin    73312 10 Aug 10:12 fort.61
+-rw-r--r--  1 brunocamino  admin    39168 10 Aug 10:12 fort.62
+-rw-r--r--  1 brunocamino  admin   763104 10 Aug 10:12 fort.8
+-rw-r--r--  1 brunocamino  admin   127172 10 Aug 10:12 fort.9
+-rw-r--r--  1 brunocamino  admin   323770 10 Aug 10:12 fort.98
+-rw-r--r--  1 brunocamino  admin        0 10 Aug 10:12 scanlist
+file fort.98 saved as /Users/brunocamino/Desktop/Imperial/crystal_python_tools/final/examples/workflows/../data/es/mgo_BAND.f98
+file fort.13 saved as /Users/brunocamino/Desktop/Imperial/crystal_python_tools/final/examples/workflows/../data/es/mgo_BAND.f13
+file fort.25 saved as /Users/brunocamino/Desktop/Imperial/crystal_python_tools/final/examples/workflows/../data/es/mgo_BAND.f25
+file BAND.DAT saved as /Users/brunocamino/Desktop/Imperial/crystal_python_tools/final/examples/workflows/../data/es/mgo_BAND_dat.BAND
+file DOSS.DAT saved as /Users/brunocamino/Desktop/Imperial/crystal_python_tools/final/examples/workflows/../data/es/mgo_BAND_dat.DOSS
+output of Crgra in file /Users/brunocamino/Desktop/Imperial/crystal_python_tools/final/examples/workflows/../data/es/mgo_BAND.outpg

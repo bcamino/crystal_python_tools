@@ -1,13 +1,13 @@
-date Thu 5 Aug 2021 16:26:35 BST
+date Tue 10 Aug 2021 10:14:04 BST
 master hostname MacBook-Pro.local
 system Darwin MacBook-Pro.local 20.6.0 Darwin Kernel Version 20.6.0: Wed Jun 23 00:26:27 PDT 2021; root:xnu-7195.141.2~5/RELEASE_ARM64_T8101 x86_64
 user brunocamino
-output data in /Users/brunocamino/Desktop/Imperial/crystal_python_tools/examples/workflows/../data/spbs/si_spbs_0.outp
+output data in /Users/brunocamino/Desktop/Imperial/crystal_python_tools/final/examples/workflows/../data/spbs/si_spbs_0.outp
 properties in /Users/brunocamino/crystal
-input data in /Users/brunocamino/Desktop/Imperial/crystal_python_tools/examples/workflows/../data/spbs/si_spbs_0.d3
+input data in /Users/brunocamino/Desktop/Imperial/crystal_python_tools/final/examples/workflows/../data/spbs/si_spbs_0.d3
 temporary directory /Users/brunocamino/crystal/tmp
-wave function data from /Users/brunocamino/Desktop/Imperial/crystal_python_tools/examples/workflows/../data/spbs/si.f9
-wave function formatted data from /Users/brunocamino/Desktop/Imperial/crystal_python_tools/examples/workflows/../data/spbs/si.f98
+wave function data from /Users/brunocamino/Desktop/Imperial/crystal_python_tools/final/examples/workflows/../data/spbs/si.f9
+wave function formatted data from /Users/brunocamino/Desktop/Imperial/crystal_python_tools/final/examples/workflows/../data/spbs/si.f98
 NEWK
 0 0
 1 0
@@ -61,7 +61,7 @@ END
  *(18) CAMBRIDGE UNIVERSITY - CAMBRIDGE (UK)                                   *
  *                                                                             *
  *******************************************************************************
- EEEEEEEEEE STARTING  DATE 05 08 2021 TIME 16:26:35.1
+ EEEEEEEEEE STARTING  DATE 10 08 2021 TIME 10:14:04.8
 
  *******************************************************************************
  SILICON BULK                                                                    
@@ -382,36 +382,38 @@ END
 
  CAPPA:IS1  6;IS2  6;IS3  6; K PTS MONK NET  16; SYMMOPS:K SPACE  48;G SPACE  48
 
- TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT BAND        TELAPSE        0.12 TCPU        0.11
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT BAND        TELAPSE        0.11 TCPU        0.10
  ENDPROP   
- TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT END         TELAPSE        0.12 TCPU        0.11
- EEEEEEEEEE TERMINATION  DATE 05 08 2021 TIME 16:26:35.2
-Thu  5 Aug 2021 16:26:35 BST
+ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTT END         TELAPSE        0.11 TCPU        0.10
+ EEEEEEEEEE TERMINATION  DATE 10 08 2021 TIME 10:14:04.9
+Tue 10 Aug 2021 10:14:04 BST
 Contents of temporary directory:
-total 15536
--rw-r--r--  1 brunocamino  admin    71256  5 Aug 16:26 BAND.DAT
--rw-r--r--  1 brunocamino  admin        0  5 Aug 16:26 OPTalist
--rw-r--r--  1 brunocamino  admin        0  5 Aug 16:26 OPTclist
--rw-r--r--  1 brunocamino  admin    35856  5 Aug 16:26 diis_Fg
--rw-r--r--  1 brunocamino  admin     2304  5 Aug 16:26 diis_Fia1
--rw-r--r--  1 brunocamino  admin     2880  5 Aug 16:26 diis_Fia2
--rw-r--r--  1 brunocamino  admin        0  5 Aug 15:52 diis_Sk
--rw-r--r--  1 brunocamino  admin   109944  5 Aug 16:26 fort.10
--rw-r--r--  1 brunocamino  admin    63896  5 Aug 16:26 fort.11
--rw-r--r--  1 brunocamino  admin   983736  5 Aug 16:26 fort.13
--rw-r--r--  1 brunocamino  admin  4642873  5 Aug 16:26 fort.25
--rw-r--r--  1 brunocamino  admin    63896  5 Aug 16:26 fort.3
--rw-r--r--  1 brunocamino  admin    11997  5 Aug 16:26 fort.34
--rw-r--r--  1 brunocamino  admin   175504  5 Aug 16:26 fort.61
--rw-r--r--  1 brunocamino  admin   171168  5 Aug 16:26 fort.62
--rw-r--r--  1 brunocamino  admin   300800  5 Aug 16:26 fort.8
--rw-r--r--  1 brunocamino  admin   119356  5 Aug 16:26 fort.9
--rw-r--r--  1 brunocamino  admin    14168  5 Aug 16:26 fort.95
--rw-r--r--  1 brunocamino  admin   303411  5 Aug 16:26 fort.98
--rw-r--r--  1 brunocamino  admin        0  5 Aug 16:26 scanlist
-file fort.98 saved as /Users/brunocamino/Desktop/Imperial/crystal_python_tools/examples/workflows/../data/spbs/si_spbs_0.f98
-file fort.13 saved as /Users/brunocamino/Desktop/Imperial/crystal_python_tools/examples/workflows/../data/spbs/si_spbs_0.f13
-geometry input file fort.34 saved as /Users/brunocamino/Desktop/Imperial/crystal_python_tools/examples/workflows/../data/spbs/si_spbs_0.gui
-file fort.25 saved as /Users/brunocamino/Desktop/Imperial/crystal_python_tools/examples/workflows/../data/spbs/si_spbs_0.f25
-file BAND.DAT saved as /Users/brunocamino/Desktop/Imperial/crystal_python_tools/examples/workflows/../data/spbs/si_spbs_0_dat.BAND
-output of Crgra in file /Users/brunocamino/Desktop/Imperial/crystal_python_tools/examples/workflows/../data/spbs/si_spbs_0.outpg
+total 5336
+-rw-r--r--  1 brunocamino  admin   71256 10 Aug 10:14 BAND.DAT
+-rw-r--r--  1 brunocamino  admin   14959 10 Aug 10:12 DOSS.DAT
+-rw-r--r--  1 brunocamino  admin       0 10 Aug 10:14 OPTalist
+-rw-r--r--  1 brunocamino  admin       0 10 Aug 10:14 OPTclist
+-rw-r--r--  1 brunocamino  admin   35856 10 Aug 10:14 diis_Fg
+-rw-r--r--  1 brunocamino  admin    2304 10 Aug 10:14 diis_Fia1
+-rw-r--r--  1 brunocamino  admin    2880 10 Aug 10:14 diis_Fia2
+-rw-r--r--  1 brunocamino  admin       0 10 Aug 10:03 diis_Sk
+-rw-r--r--  1 brunocamino  admin  109944 10 Aug 10:14 fort.10
+-rw-r--r--  1 brunocamino  admin   63896 10 Aug 10:14 fort.11
+-rw-r--r--  1 brunocamino  admin  983736 10 Aug 10:14 fort.13
+-rw-r--r--  1 brunocamino  admin   63601 10 Aug 10:14 fort.25
+-rw-r--r--  1 brunocamino  admin   63896 10 Aug 10:14 fort.3
+-rw-r--r--  1 brunocamino  admin   11997 10 Aug 10:13 fort.34
+-rw-r--r--  1 brunocamino  admin  175504 10 Aug 10:14 fort.61
+-rw-r--r--  1 brunocamino  admin  171168 10 Aug 10:14 fort.62
+-rw-r--r--  1 brunocamino  admin  300800 10 Aug 10:14 fort.8
+-rw-r--r--  1 brunocamino  admin  119356 10 Aug 10:14 fort.9
+-rw-r--r--  1 brunocamino  admin   14168 10 Aug 10:14 fort.95
+-rw-r--r--  1 brunocamino  admin  303411 10 Aug 10:14 fort.98
+-rw-r--r--  1 brunocamino  admin       0 10 Aug 10:14 scanlist
+file fort.98 saved as /Users/brunocamino/Desktop/Imperial/crystal_python_tools/final/examples/workflows/../data/spbs/si_spbs_0.f98
+file fort.13 saved as /Users/brunocamino/Desktop/Imperial/crystal_python_tools/final/examples/workflows/../data/spbs/si_spbs_0.f13
+geometry input file fort.34 saved as /Users/brunocamino/Desktop/Imperial/crystal_python_tools/final/examples/workflows/../data/spbs/si_spbs_0.gui
+file fort.25 saved as /Users/brunocamino/Desktop/Imperial/crystal_python_tools/final/examples/workflows/../data/spbs/si_spbs_0.f25
+file BAND.DAT saved as /Users/brunocamino/Desktop/Imperial/crystal_python_tools/final/examples/workflows/../data/spbs/si_spbs_0_dat.BAND
+file DOSS.DAT saved as /Users/brunocamino/Desktop/Imperial/crystal_python_tools/final/examples/workflows/../data/spbs/si_spbs_0_dat.DOSS
+output of Crgra in file /Users/brunocamino/Desktop/Imperial/crystal_python_tools/final/examples/workflows/../data/spbs/si_spbs_0.outpg
