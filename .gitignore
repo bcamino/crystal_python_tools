@@ -1,6 +1,7 @@
 *.f*
 .ipynb_checkpoints
 *.outpg
+__pycache__/*
 
 # This file was used to downsload all the basis sets that now are saved in a dictionary.
 building_blocks/download_bs.ipynb

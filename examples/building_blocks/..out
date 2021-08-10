@@ -1,7 +1,0 @@
-date Tue 22 Jun 2021 16:11:56 BST
-hostname MacBook-Pro.local
-system Darwin MacBook-Pro.local 20.5.0 Darwin Kernel Version 20.5.0: Sat May 8 05:10:31 PDT 2021; root:xnu-7195.121.3~9/RELEASE_ARM64_T8101 x86_64
-user brunocamino
-output data in /Users/brunocamino/Desktop/Imperial/crystal_python_tools/building_blocks/..out
-crystal executable in /Users/brunocamino/crystal
-input data in /Users/brunocamino/Desktop/Imperial/crystal_python_tools/building_blocks/..d12 not found or empty

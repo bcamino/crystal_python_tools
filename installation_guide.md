@@ -8,10 +8,13 @@ If you are familiar with conda skip this section.
 Download miniconda from this <a href='https://docs.conda.io/en/latest/miniconda.html'>link</a>. Follow the instructions and you will create a folder in your home directory called miniconda. This folder will contain all the environments and packages.
 
 <h3>Packages required</h3>
-You can create the environment to run the notebooks by installing this <a href='../files/cpt.yml'>yml file</a>. Download the file and type the following command from the folder where the file is saved:
-
+You can create the environment to run the notebooks by installing this <a href='files/cpt.yml'>yml file</a>
+. Download the file and type the following command in the folder where the file is saved:
+<br>
+<br>
 <i>conda env create -f cpt.yml</i>
-
+<br>
+<br>
 This will download all the packages and create the dependencies that you will need to run the notebooks.
 
  If you would like to install the packages manually please refer to the list of packages contained in the yml file.
@@ -24,12 +27,12 @@ You will need to run this command every time you shut down the terminal where yo
 
 <h3>Download crystal_python_tools</h3>
 You can download the repository by clicking on the green button above and download the zip file or type the following on your command line:
-
+<br>
+<br>
 <i>gh repo clone bcamino/crystal_python_tools</i>
-
-To run the notebooks
-
- When working with the notebooks type:
+<br>
+<br>
+To run the notebooks type:
 
  <i>jupyter notebook</i>
 
