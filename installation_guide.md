@@ -29,7 +29,7 @@ You will need to run this command every time you shut down the terminal where yo
 You can download the repository by clicking on the green button above and download the zip file or type the following on your command line:
 <br>
 <br>
-<i>gh repo clone bcamino/crystal_python_tools</i>
+<i>git clone https://github.com/bcamino/crystal_python_tools</i>
 <br>
 <br>
 To run the notebooks type:
