@@ -2,11 +2,14 @@
 .ipynb_checkpoints
 *.outpg
 __pycache__/*
+*/__pycache__/*
+cc.yml*
+cpt1.yml
 
-# This file was used to downsload all the basis sets that now are saved in a dictionary.
+# This file was used to download all the basis sets that now are saved in a dictionary.
 building_blocks/download_bs.ipynb
 
-# The following files are work in progress 
+# The following files are work in progress
 building_blocks/on_nanoparticle_adsorption.ipynb
 building_blocks/sample_adsorption_sites.ipynb
 building_blocks/sample_surface.ipynb
