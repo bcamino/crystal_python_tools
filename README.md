@@ -1,6 +1,10 @@
 <h1>crystal_python_tools</h1>
 
-This repository contains python tools to be used with the electronic structure code [CRYSTAL](https://www.crystal.unito.it/index.php).
+This was the seed project that started that then became the [crystal-code-tools](https://github.com/crystal-code-tools). 
+Please refer to the [crystal_functions](https://github.com/crystal-code-tools/crystal_functions) set of functions for an updated and improved version of the functions 
+contained in this repository.
+
+This repository contains python tools to be used with the electronic structure code [CRYSTAL](https://www.crystal.unito.it/index.php). 
 
 <h3>Installation</h3>
 
